@@ -1,31 +1,32 @@
 {
-  "name": "nodejs-web-ban-dong-ho",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuxuan2511/nodejs-web-dong-ho.git"
-  },
-  "author": "vuxuan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vuxuan2511/nodejs-web-dong-ho/issues"
-  },
-  "homepage": "https://github.com/vuxuan2511/nodejs-web-dong-ho#readme",
-  "dependencies": {
-    "body-parser": "^1.20.1",
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/node": "^7.12.10",
-    "@babel/preset-env": "^7.12.10",
-    "nodemon": "^2.0.7"
-  }
+    "name": "nodejs-web-ban-dong-ho",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vuxuan2511/nodejs-web-dong-ho.git"
+    },
+    "author": "vuxuan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vuxuan2511/nodejs-web-dong-ho/issues"
+    },
+    "homepage": "https://github.com/vuxuan2511/nodejs-web-dong-ho#readme",
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.5",
+        "@babel/node": "^7.20.5",
+        "@babel/preset-env": "^7.20.2",
+        "nodemon": "^2.0.20"
+    }
 }
